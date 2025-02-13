@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Обычный белый фон и синий акцент */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff; /* Белый фон */
+  color: #1E1E1E; /* Темный текст */
+}
+
+/* Стили для текстов */
+h1, h2, h3 {
+  color: #1E40AF; /* Темно-синий */
+}
+
+/* Улучшение читаемости текста */
+p {
+  color: #333; /* Чуть темнее, чтобы текст был контрастнее */
+}
+
+/* Стили для кнопок */
+button {
+  font-weight: 600;
+}
+
+/* Кастомный Scroll */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #2563eb;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1e40af;
+}
